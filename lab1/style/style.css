@@ -1,0 +1,21 @@
+div {
+  margin-bottom: 10px;
+}
+
+.calculations input {
+  margin-right: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.inputsDiv {
+  width: 250px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

@@ -4,22 +4,27 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style/style.css">
   <title>Lab 1 app</title>
 </head>
 <body>
-  <div>
-    <label>Wprowadź liczby: </label><input type="number" id="#first_in">
-    <input type="number" id="#second_in">
-    <input type="number" id="#third_in">
-    <input type="number" id="#fourth_in">
+  <div class="panel">
+    <label for="NumberOfInputs">Number of inputs:</label>
+    <input type="number" name="numberOfInputs" id="numberOfInputs">
+    <button class="createInputs">Create inputs</button>
+    <span class="error hidden"></span>
   </div>
-  <br>
-  <div>
-    <label>Suma: </label><input type="text" disabled id="sum">
-    <label>Średnia: </label><input type="text" disabled id="avg">
-    <label>Minimum: </label><input type="text" disabled id="min">
-    <label>Maximum: </label><input type="text" disabled id="max">
+  <div class="inputs"></div>
+  <div class="calculations">
+    <label for="sum">Sum:</label>
+    <input type="number" id="sum" name="sum" disabled>
+    <label for="avg">Average:</label>
+    <input type="number" id="avg" name="avg" disabled>
+    <label for="min">Minimum:</label>
+    <input type="number" id="min" name="min" disabled>
+    <label for="max">Maximum:</label>
+    <input type="number" id="max" name="max" disabled>
   </div>
-  <script src="index.js"></script>
+  <script src="../src/index.js"></script>
 </body>
 </html>
