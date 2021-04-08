@@ -1,0 +1,48 @@
+* {
+  font-family: 'Nunito';
+}
+
+h1 {
+  text-align: center;
+}
+
+div.keys {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+div.key {
+  font-size: 50px;
+  width: 150px;
+  height: 150px;
+  background: #59bfff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+div.recordings {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  text-align: center;
+  flex-direction: column;
+}
+
+div.record {
+  margin-bottom: 20px;
+}
+
+button {
+  font-size: 20px;
+  padding: 10px 20px;
+  background: #59bfff;
+  border-radius: 10px;
+  color: white;
+  border: white;
+}
